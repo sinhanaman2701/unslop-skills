@@ -1,0 +1,2 @@
+/* Motion token file. Must produce zero hits. */
+:root { --dur-press: 120ms; --dur-base: 200ms; --dur-enter: 360ms; --dur-reveal: 700ms; --stagger: 50ms; }

@@ -1,0 +1,27 @@
+<!-- Fixture: every line below is deliberate slop for slop-grep.sh (web) to find. -->
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="slop.css">
+</head>
+<body>
+  <div class="hero bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text">
+    <h1 class="uppercase tracking-tight italic font-bold">Welcome back, Sam! 👋</h1>
+    <p>Supercharge your workflow. Click here to continue.</p>
+    <div onClick="go()">Go</div>
+    <a href="#">More</a>
+    <img src="a.png">
+    <span class="animate-spin"></span>
+    <div class="rounded-2xl shadow-lg backdrop-blur-md divide-y min-h-screen font-mono"></div>
+    <dialog role="dialog" aria-modal="true"></dialog>
+    <button class="hamburger">menu</button>
+  </div>
+  <script>
+    async function load() { try { return [1]; } catch (e) { return []; } }
+    const delay = (i) => { el.style.animationDelay = i * 80 + 'ms'; };
+    window.addEventListener('beforeunload', () => {});
+    screen.orientation.lock('portrait');
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* Fixture: deliberate slop for slop-grep.sh (web). */
+.hero {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  box-shadow: 0 0 40px 10px rgba(139, 92, 246, 0.5);
+  padding-top: 13px;
+  color: #ffffff;
+  min-height: 100vh;
+  transition: all 600ms ease-in-out;
+  transition: width 200ms ease-out;
+}
+.title { font-weight: 800; font-style: italic; text-transform: uppercase; letter-spacing: -0.04em; font-family: ui-monospace, Menlo, monospace; }
+.glass { backdrop-filter: blur(20px); }
+.pulse { animation: pulse 2s infinite; }
+.bounce { transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1); }
+.pop { transform: scale(0); }
+.btn:focus { outline: none; }
