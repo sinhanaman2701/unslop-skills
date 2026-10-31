@@ -1,6 +1,8 @@
 # unslop-skills
 
-Three [Claude Code](https://claude.com/claude-code) skills that stop AI-generated UI from looking like AI-generated UI. iOS-first, and they work for the web too.
+I took everything I could find on de-slopping AI-generated UI and collated it into three [Claude Code](https://claude.com/claude-code) skills: design, motion and review. iOS-first, and they work for Flutter, React Native, SwiftUI and the web.
+
+Built on [unslop](https://github.com/heydamir/unslop) by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), plus Visant, Impeccable and platform-design-skills (see [Credits](#credits-and-licenses)).
 
 | Skill | Use it when |
 | --- | --- |
